@@ -40,6 +40,7 @@ Use composer to install this UberPHP package.
 <?php 
 include 'vendor/autoload.php';
 
+use Pest;
 use Uber\API\Client;
 
 try {
@@ -68,6 +69,7 @@ try {
 <?php 
 include 'vendor/autoload.php';
 
+use Pest;
 use Uber\API\OAuth;
 
 try {
@@ -96,6 +98,7 @@ try {
 <?php 
 include 'vendor/autoload.php';
 
+use Pest;
 use Uber\API\Client;
 
 try {
