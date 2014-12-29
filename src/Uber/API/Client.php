@@ -10,12 +10,6 @@ namespace Uber\API;
 class Client {    
     
     /**
-     * Uber API endpoint
-     * @var string
-     */
-    private static $endpoint = 'https://api.uber.com/';
-    
-    /**
      * REST adapter
      * @var Pest
      */
@@ -65,7 +59,7 @@ class Client {
     
     /**
      * Return an array of HTTP headers
-     * @return array
+     * @return string[]
      */
     private function getHeaders() {
         $headers = array('Accept-Language: '.$this->locale);
