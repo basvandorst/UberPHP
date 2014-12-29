@@ -1,7 +1,6 @@
 UberPHP
 =========
 [![Build Status](https://scrutinizer-ci.com/g/basvandorst/UberPHP/badges/build.png?b=master)](https://scrutinizer-ci.com/g/basvandorst/UberPHP/build-status/master)
-[![Code Coverage](https://scrutinizer-ci.com/g/basvandorst/UberPHP/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/basvandorst/UberPHP/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/basvandorst/UberPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/basvandorst/UberPHP/?branch=master)
 
 **TLDR;** Uber API PHP client with OAuth authentication
