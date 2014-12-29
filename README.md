@@ -91,7 +91,7 @@ try {
 }
 ```
 ##### Then, call the API method!
-```
+```php
 <?php 
 include 'vendor/autoload.php';
 
