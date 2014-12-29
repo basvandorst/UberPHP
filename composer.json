@@ -1,0 +1,22 @@
+{
+    "name": "basvandorst/uberphp",
+    "description": "Uber API PHP client with OAuth authentication",
+     "keywords":    ["Uber","API","OAuth","PHP","UberPHP"],
+    "require": {
+        "educoder/pest": "1.0.0",
+        "league/oauth2-client": "0.6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bas van Dorst",
+            "email": "basvandorst@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Uber":        "src/"
+        }
+    }
+}
