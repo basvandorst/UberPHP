@@ -77,7 +77,8 @@ try {
         'redirectUri'  => 'CALLBACK_URI'
     );
     $oauth = new OAuth($options);
-    
+    $oauth->setScopes(array('profile','history'));
+
     if (!isset($_GET['code'])) {
         print '<a href="'.$oauth->getAuthorizationUrl().'">connect</a>';
     } else {
