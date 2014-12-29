@@ -62,7 +62,7 @@ try {
 }
 ```
 
-#### Example with user authorisation
+#### Example with OAuth user authorisation
 ##### First, authorisation and authentication
 ```php
 <?php 
@@ -113,13 +113,18 @@ try {
 ```
 
 ## Accepted methods
+### OAuth user authorisation required
+```php
+$client->userProfile();
+$client->userActivity($lite = false);
+```
+
+### Only server authorisation required
 ```php
 $client->products($latitude, $longitude);
 $client->promotions($start_latitude, $start_longitude, $end_latitude, $end_longitude); (not working)
 $client->estimatesPrice($start_latitude, $start_longitude, $end_latitude, $end_longitude)
 $client->estimatesTime($start_latitude, $start_longitude, $end_latitude, $end_longitude)
-$client->userProfile();
-$client->userActivity($lite = false);
 ```
 
 ## About UberPHP
